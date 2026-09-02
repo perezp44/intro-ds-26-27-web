@@ -25,7 +25,7 @@
     "href": "03-materiales.html#guiones-de-clase",
     "title": "Programación y manejo de datos con R",
     "section": "Guiones de clase",
-    "text": "Guiones de clase\n\nGuión 01\nGuión 02\nGuión 03\nRepaso Quarto\n\n\n\n\n\n\n\nDescarga de los guiones\n\n\n\n\n\n\nLos guiones se descargan simplemente pinchando en los links; pero, si quieres descargarlos con código:\n\n\nDescargar (y descomprimir) los guiones con código R:file_to_download &lt;- \"guion_xx.zip\"  #- Has de cambiar \"guion_xx.zip\" por guion_01.zip\" o \"guion_02.zip\"\n\nurl &lt;- paste0(\"https://github.com/perezp44/intro-ds-26-27-web/raw/main/guiones/\", file_to_download)\n\ndownload.file(url, destfile = file_to_download)\n\nunzip(zipfile = file_to_download)\n\nfile.remove(file_to_download)"
+    "text": "Guiones de clase\n\nGuión 01\n\n\n\n\n\n\n\nDescarga de los guiones\n\n\n\n\n\n\nLos guiones se descargan simplemente pinchando en los links; pero, si quieres descargarlos con código:\n\n\nDescargar (y descomprimir) los guiones con código R:file_to_download &lt;- \"guion_xx.zip\"  #- Has de cambiar \"guion_xx.zip\" por guion_01.zip\" o \"guion_02.zip\"\n\nurl &lt;- paste0(\"https://github.com/perezp44/intro-ds-26-27-web/raw/main/guiones/\", file_to_download)\n\ndownload.file(url, destfile = file_to_download)\n\nunzip(zipfile = file_to_download)\n\nfile.remove(file_to_download)"
   },
   {
     "objectID": "03-materiales.html#plantillas-para-los-trabajos",
