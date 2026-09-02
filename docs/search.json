@@ -2,49 +2,49 @@
   {
     "objectID": "03-materiales.html",
     "href": "03-materiales.html",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "",
     "text": "Materiales de clase\n\n\n\nEn el curso usaremos diversos tipos de materiales, los principales son:\n\nSlides : las transparencias (o slides) que usaré durante las clases.\nTutoriales : digamos que son los apuntes/libro oficial del curso. Algunas de las tareas a hacer en casa consistirán en leer secciones de estos tutoriales.\nGuiones de clase/Ejemplos/Ejercicios : cada sesión (o grupo de sesiones) del curso tendrá un guión asociado con los materiales a usar en esa clase. Los iré colgando conforme avancen las clases."
   },
   {
     "objectID": "03-materiales.html#slides",
     "href": "03-materiales.html#slides",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Slides",
     "text": "Slides\n\nSlides-00: Presentación\nSlides-01: Tema 1\nSlides-02: Primeros pasos\nSlides-03: R base\nSlides-04: Importar y exportar datos\nSlides-05(A): Data munging I\nSlides-05(B): Data munging II\nSlides-06(A): ggplot2 (primeras ideas)\nSlides-06(B): ggplot2 (más elementos)\nSlides-06(C): ggplot2 (distintos tipos de gráficos)\nSlides-07(A): Rmarkdown (primeras ideas, bye bye)\nSlides-07(B): Intro a Quarto\nSlides-07(C): Webs con Quarto"
   },
   {
     "objectID": "03-materiales.html#tutoriales",
     "href": "03-materiales.html#tutoriales",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Tutoriales",
     "text": "Tutoriales\n\nPrefacio\nTutorial 01: Introducción\nTutorial 02: Workflow\nTutorial 03: R base\nTutorial 04: Cargar datos\nTutorial 05: Data munging\nTutorial 06: ggplot2\nTutorial 07: Rmarkdown\nTutorial 08: Tablas con Rmarkdown\nTutorial 09: Introducción a GIS con R\nTutorial 10: Un poco de EDA y modelos"
   },
   {
     "objectID": "03-materiales.html#guiones-de-clase",
     "href": "03-materiales.html#guiones-de-clase",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Guiones de clase",
     "text": "Guiones de clase\n\nGuión 01\nGuión 02\nGuión 03\nRepaso Quarto\n\n\n\n\n\n\n\nDescarga de los guiones\n\n\n\n\n\n\nLos guiones se descargan simplemente pinchando en los links; pero, si quieres descargarlos con código:\n\n\nDescargar (y descomprimir) los guiones con código R:file_to_download &lt;- \"guion_xx.zip\"  #- Has de cambiar \"guion_xx.zip\" por guion_01.zip\" o \"guion_02.zip\"\n\nurl &lt;- paste0(\"https://github.com/perezp44/intro-ds-26-27-web/raw/main/guiones/\", file_to_download)\n\ndownload.file(url, destfile = file_to_download)\n\nunzip(zipfile = file_to_download)\n\nfile.remove(file_to_download)"
   },
   {
     "objectID": "03-materiales.html#plantillas-para-los-trabajos",
     "href": "03-materiales.html#plantillas-para-los-trabajos",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Plantillas para los trabajos",
     "text": "Plantillas para los trabajos\n(dentro de unas semanas)"
   },
   {
     "objectID": "03-materiales.html#bibliografía",
     "href": "03-materiales.html#bibliografía",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Bibliografía",
     "text": "Bibliografía\n\nHadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023): R for Data Science (2e). https://r4ds.hadley.nz/\nGrolemund, G., Wickham, H. (2019): R para Ciencia de Datos. https://es.r4ds.hadley.nz/\nGrolemund, G., Wickham, H. (2016): R for Data Science, OReilly. https://r4ds.had.co.nz/\nPeng, R. D. (2016): Exploratory Data Analysis with R. Lean Publishing. https://bookdown.org/rdpeng/exdata/\nJames, G., Witten, E., Hastie T. y Tibshirani, R. (2015): An Introduction to Statistical Learning with applications in R. http://www-bcf.usc.edu/~gareth/ISL/\nRafael A. Irizarry: Introduction to Data Science (Data Analysis and Prediction Algorithms with R). http://rafalab.dfci.harvard.edu/dsbook/\nAlbert Rapp, Yet Again: R + Data Science, https://yards.albert-rapp.de/\nJohn P. Helveston: Curso Intro to Programming for Analytics. https://p4a.seas.gwu.edu/2023-Spring/\nChester Ismay & Albert Y. Kim: Statistical Inference via Data Science (A ModernDive into R and the Tidyverse). https://moderndive.com/index.html\nCurso Data Science in a box. https://datasciencebox.org/\nB. S. Baumer, D. T. Kaplan, and N. J. Horton: Modern Data Science with R. https://mdsr-book.github.io/mdsr3e/"
   },
   {
     "objectID": "03-materiales.html#más-bibliografíarecursos",
     "href": "03-materiales.html#más-bibliografíarecursos",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Más bibliografía/Recursos",
     "text": "Más bibliografía/Recursos\nLa comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc….\nRecursos para buscar inspiración para tus proyectos\n\nR-weekly: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte aquí.\nR-bloggers: Un agregador de blogs relacionados con R.\nKaggle: plataforma para aprender ML. Encontrarás datos y análisis de estos.\nTidy Tuesday: cada semana lanzan una competición de visualización con unos datos.\n\n\nMás recursos\n\nQuick-R\nr-statistics.co\nModern Drive: un libro, en realidad un bookdown, que me gusta.\nswirl: swirl teaches you R programming and data science interactively, at your own pace, and right in the R console!\nR views: Un blog de la comunidad R editado por RStudio. Cada mes saca un post con los mejores 40 paquetes de ese mes; por ejemplo, aquí tienes el de julio de 2020.\nStack Overflow: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R.\n\n\nPropuestas para aprender R\n\nHow to get started with Data Science using R\nTutorials for learning R\n\n\nNecesito un paquete para …\n\nListado sencillo\nListado completo de CRAN agrupado por temática\nAWESOME list de pkgs\nListado de pkgs agrupados por fase del análisis\n\n\nAwesome list\nMucha gente hace sus propias listas de recursos R, aquí tienes algunas:\n\nAwesome R Learning Resources\nLearning R resources\nwww.learnr4free.com"
   },
@@ -93,35 +93,35 @@
   {
     "objectID": "02-logistica.html",
     "href": "02-logistica.html",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "",
     "text": "Logística\n\n\n\nEn el curso utilizaremos ordenadores y algunos programas y servicios informáticos. En esta sección explicaré los detalles de instalación y/o uso"
   },
   {
     "objectID": "02-logistica.html#programas-instalación",
     "href": "02-logistica.html#programas-instalación",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Programas (instalación)",
     "text": "Programas (instalación)\n\n\n\n\n\n\nInstalación de R, RStudio y Quarto\n\n\n\n\n\n\nEn el curso usaremos 3 programas: R, RStudio y Quarto, así que tenemos que instalarlos\n\nHas de instalar los programas en este orden:\n\nR: https://cran.r-project.org/\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/download/. En realidad, si has instalado recientemente Rstudio, no hace falta que instales Quarto, ya que las últimas versiones de RStudio traen Quarto 1.9 ya incorporado.\n\n\nPara ello, solamente has de descargar las versiones de los instaladores adecuadas para tu sistema operativo\n\n\n\n\n\n\n\n\n\n\nInstalación de paquetes\n\n\n\n\n\n\nEn el curso también usaremos algunos paquetes de R, así que tendremos que instalarlos\nLos paquetes se han de instalar después de haber instalado los 3 programas (R, RStudio y Quarto)\nLos paquetes no son necesarios para el primer día del curso, así que, si tenéis dudas, esperaros a que Vicente os explique cómo ejecutar código R. Si aún así no sabéis cómo hacerlo, no os preocupéis, volveremos a hablar sobre ello, en clase, durante la segunda sesión del curso\n\n\n\n\n\n\n\n\n\n\n\n¿Cómo instalar los paquetes?\n\n\n\n\n\n\nSi sabes instalarlos, perfecto!!, pero recuerda que Los paquetes no son necesarios para el primer día del curso.\n\nAlgunos paquetes se han de compilar por lo que hay que tener las herramientas necesarias, así que:\n\nSi usas Windows tendrás que instalar Rtools. Aquí puedes descargarte el instalador adecuado\nSi tienes un Mac, tendrás que instalar the Xcode Command Line Tools. Lo normal es que lo tengas ya instalado, si no fuese el caso, aquí te explican como hacerlo. Además, como nos cuentan aquí, si tienes un Mac, es conveniente instalar XQuartz, para ello sólo tienes que buscar el instalador en https://www.xquartz.org/\n\n\nFinalmente, para instalar los paquetes que usaremos durante el curso tendremos que ejecutar las siguientes instrucciones:\n\n\nCódigo para instalar los paquetes#- instalación de paquetes ---------------------------------\n\ninstall.packages(\"pak\")\n\nmys_pkgs &lt;- c(\"tidyverse\", \"curl\", \"eurostat\", \"here\", \"palmerpenguins\", \"quantmod\", \"rio\", \"gt\", \"DT\", \"gapminder\", \"markdown\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"usethis\", \"janitor\", \"ggthemes\", \"gganimate\", \"sjPlot\", \"refugees\", \"slider\", \"repmis\", \"jtools\", \"huxtable\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"sf\", \"rcartocolor\", \"rmapshaper\", \"gtExtras\", \"patchwork\", \"magick\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"kableExtra\", \"modelsummary\", \"widyr\", \"irlba\", \"tmap\")\npak::pkg_install(mys_pkgs)\n\nmys_pkgs &lt;- c(\"GGally\", \"ggtext\", \"maps\")\npak::pkg_install(mys_pkgs)  \n\nmys_pkgs &lt;- c(\"summarytools\", \"glin/reactable\", \"naniar\")\npak::pkg_install(mys_pkgs)  \n\nmys_pkgs &lt;- c(\"DataExplorer\", \"corrr\", \"explore\", \"stargazer\", \"apaTables\")\npak::pkg_install(mys_pkgs)   \n\nmys_pkgs &lt;- c(\"easystats\", \"plotly\", \"mapSpain\")\npak::pkg_install(mys_pkgs)\n\nmys_pkgs &lt;- c(\"OECD\", \"rbioapi\")\npak::pkg_install(mys_pkgs)\n\nmys_pkgs &lt;- c(\"openxlsx\", \"xlsx\")\npak::pkg_install(mys_pkgs)\n\nmy_pkgs &lt;- c(\"meme\", \"imager\", \"sctyner/memer\", \"devtools\", \"ggpol\", \"pxR\", \"mapproj\", \"WDI\", \"wbstats\", \"rJava\")\npak::pkg_install(mys_pkgs)\n\n\nmys_pkgs &lt;- c(\"perezp44/pjpv.curso.R.2022\")\npak::pkg_install(mys_pkgs)\n\n\n\n#- finalmente, si te instalas todos los paquetes, se instalarán 324 pkg's aprox. (q ocupan 842 MB aprox.). \n#- Si tienes problemas de espacio, siempre podrás desinstalarlos o borrarlos directamente\npkgs &lt;- pak::pkg_list()\n\n#- normalmente tendrás 2 librerías\n.libPaths()\n#- en la primera tienes los pkgs de \"R-base\": \"C:/Program Files/R/R-4.5/library\"   \n#- en la segunda tienes los paquetes q se instala un usuario:  \"C:/Users/Usuario/AppData/Local/R/win-library/4.5\"\n\n\n\n\n\n\n\n\n\n\n\nMás cosas sobre instalación R\n\n\n\n\n\nLo que hay en esta sección no tienes porqué ejecutarlo, es sólo para tenerlo a mano por si nos hiciese falta durante el curso\n\nPara chequear qué versiones del software tienes instaladas, podemos usar en la TERMINAL el siguiente código:\n\nR --version         #- 4.6\nrstudio --version   #- 2026.04\nquarto --version    #- 1.9\n\nPara chequear si tu sistema está preparado to build packages:\n\ndevtools::has_devel()    #- Your system is ready to build packages!\n\nPara instalar tinytext & friends, desde la TERMINAL:\n\nquarto install tool tinytext\nquarto install tinytex --update-path\nquarto install tool chromium\n\nAlgunos chequeos (desde la TERMINAL):\n\nquarto check install\nquarto check knitr\n\nPara editar preferencias de RStudio\n\nusethis::edit_rstudio_prefs()\nusethis::use_blank_slate()"
   },
   {
     "objectID": "02-logistica.html#recursos",
     "href": "02-logistica.html#recursos",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Recursos",
     "text": "Recursos\n\n\n\n\n\n\n\nSon simplemente enlaces a servicios que (seguramente) usaremos durante el curso\n\n\n\n\n\nEtherpad: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.\nAula Virtual de la asignatura: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo “oficial”. También colgaré en Aula Virtual los detalles sobre la evaluación.\nRStudio Cloud Project: En otros cursos este recurso nos resulto muy útil, pero ahora la versión gratuita tiene límite de tiempo así que creo que no lo usaré, pero por si acaso aquí está.\nCuestionario incial"
   },
   {
     "objectID": "02-logistica.html#entrega-de-trabajos",
     "href": "02-logistica.html#entrega-de-trabajos",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Entrega de trabajos",
     "text": "Entrega de trabajos\nDurante el curso, sobre todo las primeras semanas, os mandaré tareas, algunas para resolver en el aula y otras para resolver en casa. Estas tareas, generalmente, formarán parte de la evaluación continua. Abajo tenéis las instrucciones para la entrega de las tareas:\n\nIntrucciones de entrega de las tareas de la evaluación continua"
   },
   {
     "objectID": "02-logistica.html#materiales-de-clase",
     "href": "02-logistica.html#materiales-de-clase",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Materiales de clase",
     "text": "Materiales de clase\nDurante el curso, utilizaremos diversos materiales, puedes encontrarlos en la sección Materiales."
   },
@@ -149,77 +149,77 @@
   {
     "objectID": "05-trabajos-estudiantes.html",
     "href": "05-trabajos-estudiantes.html",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "",
     "text": "Los ¿34? estudiantes del curso 2026-27, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Podrás verlos en los siguientes enlaces … pero a finales de diciembre."
   },
   {
     "objectID": "05-trabajos-estudiantes.html#trabajos-curso",
     "href": "05-trabajos-estudiantes.html#trabajos-curso",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "",
     "text": "Los ¿34? estudiantes del curso 2026-27, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Podrás verlos en los siguientes enlaces … pero a finales de diciembre."
   },
   {
     "objectID": "05-trabajos-estudiantes.html#cursos-anteriores",
     "href": "05-trabajos-estudiantes.html#cursos-anteriores",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Cursos anteriores",
     "text": "Cursos anteriores\n\n\n\n\n\n\n\nTrabajos de cursos anteriores\n\n\n\n\n\nPuedes ver los trabajos elaborados por estudiantes de cursos anteriores en los siguiente links:\n\nCurso 2025-26\nCurso 2024-25\nCurso 2023-24\nCurso 2022-23\nCurso 2021-22\nCurso 2020-21\nCurso 2019-20"
   },
   {
     "objectID": "01-guia-del-curso.html",
     "href": "01-guia-del-curso.html",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "",
     "text": "Guía del curso\n\n\n\nEn esta sección os cuento un poco de la filosofía/enfoque del curso; principalmente cómo será la forma de trabajar en clase y en casa. También diré algo sobre la evaluación.\nTienes que leerla para decidir si te merece la pena hacer el curso"
   },
   {
     "objectID": "01-guia-del-curso.html#introducción",
     "href": "01-guia-del-curso.html#introducción",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Introducción",
     "text": "Introducción\n\nResumen\nComo posiblemente sepáis, y si no ya os lo contaré yo el primer día de clase, el curso es una introducción a la ciencia de datos con R; de hecho el título del curso debería ser: Introducción a la Ciencia de datos; o de forma más precisa y extensa, “Una introducción a la Ciencia de datos con R para economistas”.\n\n\n\nRelación de temas\nEl curso tiene “sólo” 5 temas. En el primer tema se presentan los objetivos del curso, junto con los términos y procesos que justifican la asignatura (Big data, Ciencia de Datos, Machine Learning, investigación reproducible…). En el tema 2 se presentan los rudimentos del lenguaje de programación R. Estos conocimientos básicos se irán reforzando durante el curso trabajando en diferentes tópicos y aplicaciones. En el tema 3, se desarrollarán diversos casos de análisis de datos tabulares, el formato más típico en Ciencias Sociales, con los que se irán asentando los conocimientos de programación iniciados en el tema 2. El tema 4 es una introducción a los conceptos básicos del Machine Learning (training set, validation set, etc..), para luego presentar las técnicas o algoritmos de ML básicos y más relacionados con lo que los estudiantes ya han visto en Econometría, ahora presentados desde una óptica diferente, más orientada a la predicción. El quinto y último tema presenta, una vez habéis alcanzado cierta soltura en el manejo de R, una panorámica de tópicos como, por ejemplo, datos espaciales y textuales.\nA pesar de que la guía docente presenta 5 temas, en el curso no trabajaremos estrictamente por temas sino más bien por tópicos: iremos presentando tópicos/ideas/funciones conforme nos vayan haciendo falta para resolver alguna tarea/problema. En esta asignatura creo que es mejor avanzar en el contenido del curso de forma no lineal y priorizar el trabajo práctico y aplicado: avanzaremos sin haber visto en detalle algunos tópicos/ideas, pero volveremos más adelante a ellas; de forma que, durante las primeras sesiones te surgirán muchas dudas, es normal!! Algunas de ellas las contestaré, pero en otras diré: ya las contestaremos más adelante!! Poco a poco iremos profundizando y comprendiendo mejor lo que hacemos. Explicaré con más detalle este punto en clase."
   },
   {
     "objectID": "01-guia-del-curso.html#desarrollo-de-las-clases",
     "href": "01-guia-del-curso.html#desarrollo-de-las-clases",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Desarrollo de las clases",
     "text": "Desarrollo de las clases\nLas clases serán eminentemente prácticas: estaremos buena parte de las sesiones trabajando con el ordenador. A pesar de que el aula en la que se desarrollarán las clases tiene ordenadores, es muy-muy-muy recomendable acudir con tu ordenador portátil y un ratón.\nComo ya he dicho varias veces, el curso es una introducción a la ciencia de datos con R, creo que os puede resultar interesante y útil, e incluso llegar a gustaros, pero tenéis que saber que hay que trabajar todas las semanas y que necesitaré vuestra ayuda para que las clases funcionen para conseguir que aprendamos lo máximo posible sobre R y Ciencia de Datos1.\nEl curso es, en mi opinión, “sencillo” de aprobar, pero hay que trabajar quizás más que en otras materías, sobre todo al principio; de hecho, la tasa de aprobados del curso es prácticamente del 100% entre los estudiantes que permanecen en el curso pasada la tercera semana. Si sigues el curso, es prácticamente imposible suspender porque durante el curso, y como parte de la evaluación continua, se hace todo el trabajo necesario para superarla.\nDurante el curso, os mandaré un e-mail cada semana donde detallaré qué tópicos trabajaremos en clase cada sesión y que tareas hay que hacer antes de que nos veamos en clase. Insistó, antes de venir a clase tendréis que leer el planning para la próxima sesión y realizar las tareas que tengáis asignadas para ese día. Generalmente, las tareas consistirán en leer algún material y realizar alguna tarea que formará parte de la evaluación continua. Lo normal será que el martes corrijamos un ejercicio para casa y que algunos miércoles hagamos una pequeña prueba sobre lo visto el martes previo. Como veis, hay que trabajar todas las semanas: si no llevas la materia al día es muy fácil descolgarse.\n\n\n\n\n\n\nRepito!!! , Todas las semanas tendréis que hacer unas tareas antes de venir a clase. Algunas de ellas las recogeré porque forman parte de la evaluación continua. Os enviaré por mail con suficiente antelación las tareas de cada semana.\n\n\n\n\n\nSesiones\nEl curso tiene 14-15 semanas, aunque al menos la última sesión del curso estará dedicada a la presentación de los trabajos en grupo.\nEs muy importante la asistencia a clase: por favor, intentad no faltar a las clases y menos aún a las 6/7 primeras. En las primeras clases se explican cosas/ideas/conceptos que, no es que sean complicadas, de hecho, una vez se entienden son muy sencillas, pero que no son fáciles de entender por uno mismo sin ayuda. Insisto: no faltéis a clase, pero menos aún a las primeras!!\n\n\n\nDinámica de las clases\nYa dentro de clase, la dinámica será la siguiente: el profesor, yo, explicaré una idea/tópico, mostraré una aplicación de ella en el ordenador, para después plantearos un reto o cuestión para que trabajéis la idea/concepto y acabéis de entenderlo. Intentaré2 repetir este esquema de explicación/aplicación de forma rápida; es decir que veamos cuantos más tópicos mejor.\nBuena parte de las sesiones estaréis resolviendo problemas/cuestiones con el ordenador. Lo ideal es trabajar en parejas, se aprende mucho más y más rápido: lo normal es atascarse de vez en cuando mientras estás resolviendo una tarea, y muchas veces es tu compañero el que te saca del apuro.\nPor favor, insisto en que es una asignatura fácil de aprobar, PERO has de trabajar durante el curso, principalmente las primeras clases. Tenéis que tener muy claro que no podéis venir a clase de espectadores a ver que ocurre, tenéis que trabajar en clase y haber trabajado en casa, no os podéis quedar atrás. Si te vas quedando atrás, en una o dos clases no entenderás nada, y no porque las cosas que veamos sean difíciles, no, sino que hay que ir paso a paso y, a veces, entenderlas por tu cuenta sí que es complicado. El tener que trabajar semana a semana puede parecer un inconveniente pero es indispensable y al final hace que en los 5 años que se lleva impartiendo el curso hayan aprobado (prácticamente) el 100% de estudiantes. Creo que al final las cosas saldrán bien y nos divertiremos y aprenderemos y aprobaréis, otra vez, todos."
   },
   {
     "objectID": "01-guia-del-curso.html#the-plan",
     "href": "01-guia-del-curso.html#the-plan",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "The “plan”",
     "text": "The “plan”\nMi idea/plan es confiar en que os va a gustar la asignatura y que vais a trabajar lo necesario, tanto en casa como en clase, de forma que podréis seguir sin demasiados problemas las clases. De vez en cuando os tendré que hacer pruebas en el aula que también formarán parte de la evaluación continua.\nLas pruebas saldrán bien, espero, lo que querrá decir que estáis aprendiendo, así que todos estaremos contentos y motivados\n\nEveryone has a plan until they get punched in the mouth — Mike Tyson"
   },
   {
     "objectID": "01-guia-del-curso.html#logística",
     "href": "01-guia-del-curso.html#logística",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Logística",
     "text": "Logística\nEl curso es eminentemente práctico, por lo que es necesario que los estudiantes tengan acceso a un ordenador durante las clases. El aula de clase tiene ordenadores pero, como ya dije, es muy-muy recomendable que cada estudiante venga a clase con su propio portátil y con un ratón; sí, un ratón3.\nEn el curso utilizaremos diversas piezas de software, principalmente R y RStudio, así que tendrás que tenerlas instaladas en tu ordenador. En la sección Logística tienes información sobre el proceso de instalación.\nDurante el curso utilizaremos diversos recursos: transparencias, ejemplos, ejercicios, bibliografía, etc… Puedes encontrar todos los detalles en la sección Materiales de la página web."
   },
   {
     "objectID": "01-guia-del-curso.html#evaluación",
     "href": "01-guia-del-curso.html#evaluación",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Evaluación",
     "text": "Evaluación\nTal como figura en la Guía Docente, el 40% de la nota provendrá de la evaluación continua y el restante 60% lo aportará el examen final.\nLos detalles concretos acerca de la evaluación continua puedes consultarlos en Aula Virtual. Hablaré de ello el primer día del curso, aunque quizás fuese mejor, como han hecho en varios países, dejar la evaluación a un algoritmo. Lo puedes leer aquí y aquí. Evidentemente lo de usar un algoritmo es una broma. Me gustaría pero … aún no lo veo."
   },
   {
     "objectID": "01-guia-del-curso.html#faqs",
     "href": "01-guia-del-curso.html#faqs",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "FAQ’s",
     "text": "FAQ’s\nEn esta sección pretendo responder a posibles dudas/preguntas que creo que os pueden pasar por la cabeza antes de iniciar el curso. Si tenéis dudas sobre el curso, hacédmelas llegar por mail o en clase: es mejor tener claro de qué va el curso para si os merece la pena continuar en él o es mejor darse de baja.\nYo también tengo dudas sobre cómo será el curso: esta va a ser ya la sexta vez que se imparte el curso en la UV pero cada año es diferente; por ejemplos, este año las clases no se concentran en un único día de la semana, el viernes, sino que se reparten en dos días, martes y miércoles. Veremos como funciona el cambio.\n\n\nNunca he programado ¿podré seguir el curso?\nPor supuesto. Empezaremos con nivel cero, PERO, lo que si que tengo que deciros es que si tu nivel de conocimientos informáticos y/o de programación no es muy elevado (o nulo) haz el esfuerzo de no perderte las 4-5 primeras clases y tratar de ir entendiéndolo, para eso están las tutorías, NO lo dejes para el final, si no, se te hará bola.\n\n\n\n¿Cual es el objetivo último del curso? ¿Qué voy a aprender?\nYa he dicho que el curso es una introducción a la Ciencia de Datos con R. Vas a aprender muchas cosas (espero), pero principalmente a utilizar R para hacer análisis de datos.\nEspero que al final del curso seáis capaces de entender código R, replicar los análisis que se publican en sitios como Rweekly y ser capaces de hacer análisis de datos propios con R.\nAquí tienes los proyectos que presentaron los estudiantes el curso pasado. Salieron muy bien!!!\n\n\n\n¿Será fácil aprobar?\nSí. Creo que te resultará fácil aprobar; de hecho, el año pasado aprobaron todos los que siguieron el curso4: todos eran capaces de importar y arreglar datos, mostrar resultados en tablas y gráficos y presentar informes en Rmarkdown. También es verdad que cada año hay 4-5 estudiantes que, por diversas razones, deciden abandonar el curso en la tercera semana para matricularse de otra optativa.\nDe verdad que creo que os gustará y aprenderéis pero … HAS de TRABAJAR, sobre todo al principio. Así que recalco:\n\n\n\n\n\n\nInsisto otra vez:\n\n\n\nSi, por lo que sea, crees que la asignatura no es para ti5, lo mejor sería darse de baja. Recuerda que hay que venir a clase y trabajar todas las semanas.\n\n\n\n\n\n¿Acabaremos el temario?\nNo lo sé, pero casi seguro que no. El curso tiene 14 semanas (en realidad 3 horas cada sesión), de forma que deberían ser suficientes para impartir el contenido de 5 temas, pero resulta que los temas, dependiendo de la profundidad con la que los veamos, pueden hacerse muy extensos.\n\n\n\n¿Me servirá lo que aprenda en mi (futuro) trabajo?\nPues no lo sé, depende, pero cada vez es más frecuente que las empresas intenten hacer sus análisis y gestión de datos con R. El año pasado al menos dos estudiantes, que yo sepa, utilizaron R en las empresas en las que estaban haciendo sus prácticas curriculares y otros dos ahora mismo estarán cursando un máster de Análisis de Datos, así que seguro que ahora están usando R.\nPasado año y medio de la finalización de cada curso académico mando un mail a los estudiantes preguntándoles si les ha sido de utilidad lo aprendido durante el curso. Suelen contestar al mail el 50% de los estudiantes y de sus respuestas puedo, más o menos inferir, que al menos a un 20% de los estudiantes les ha resultado útil ya sea en la elaboración del TFG, en las practicas de empresas, en futuros estudios o en labores profesionales."
   },
   {
     "objectID": "01-guia-del-curso.html#footnotes",
     "href": "01-guia-del-curso.html#footnotes",
-    "title": "{{< var my_title_web >}}",
+    "title": "Programación y manejo de datos con R",
     "section": "Notas",
     "text": "Notas\n\n\nAl ser una asignatura optativa no deberíamos ser muchos, pero seguramente demasiados para una clase de iniciación a la programación.↩︎\nDigo intentaré porque también depende de vosotros.↩︎\nPiensa que muchos de los errores que cometeréis serán de rapidez y de copy-paste.↩︎\n … bueno, todos menos uno. Ya os explicaré que pasó con él↩︎\nInsisto, creo que por muy bajo que sea tu nivel de partida, con un interés razonable aprovecharás sin problemas el curso. Eso sí, hay que trabajar cada semana, sobre todo las primeras semanas.↩︎"
   },

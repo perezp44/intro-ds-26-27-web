@@ -12,7 +12,8 @@ project:
     
 website:
   #page-navigation: true
-  title: "{{< var my_title_web >}}" 
+  #title: "{{< var my_title_web >}}" #- mo lo hago asi xq queda feo en las pestañitas
+  title: "Programación y manejo de datos con R"
   favicon: imagenes/uv.jpeg
   site-url: "{{< var my_url_web >}}"
   repo-url: "{{< var my_url_repo_github >}}"
