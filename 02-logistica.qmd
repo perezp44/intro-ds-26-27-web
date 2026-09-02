@@ -184,12 +184,9 @@ usethis::edit_rstudio_prefs()
 usethis::use_blank_slate() 
 ```
 
-
 :::
 
 <br><br>
-
-
 
 ## Recursos
 

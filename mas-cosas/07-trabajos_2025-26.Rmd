@@ -1,0 +1,143 @@
+---
+output:
+  html_document:
+    #css: !expr here::here("assets", "styles_pjp.css") 
+    #css: assets/styles_pjp.css
+    theme: united #cerulean  #o flatly(gris)  united (naranja) spacelab(azulito) o yeti o faltly o sandstone
+    #highlight: kate 
+    self_contained: yes
+    number_sections: no
+    #includes:
+       #in_header: google-analytics.html
+    toc: true
+    toc_float: true
+    #code_folding: show
+    #self_contained: TRUE
+---
+
+<br>
+
+
+# Curso 2025-2026
+
+<br>
+
+::: blue
+Como parte de la evaluación continua, los 26 estudiantes del curso 2025-26  tuvieron que presentar dos trabajos, uno individual y otro en equipo. Puedes verlos en los siguientes enlaces:
+:::
+
+<br><br>
+
+
+### Trabajos en equipo
+
+<br>
+
+-  **Simón Casañ Olmos** , **Adrián Fernández Bruque** y **Carlos Hueso Muñoz** Realizaron el trabajo: [Champions League](https://Adrifer04.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Adrifer04/trabajo_BigData){target="_blank"}. 
+
+<br>
+
+-   **Rayan Akhnati Tafar**, **Noura Es Salhi Piquer** y **Giulia Piovesan** presentaron el trabajo [La evolución del aborto en las últimas décadas](https://nuraesp.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nuraesp/trabajo_BigData){target="_blank"}.
+
+<br>
+
+
+-   **Gabriela Galeano**, **Arantxa Arcos** y **Lucía Bellido** presentaron el trabajo [Homicidios por el Mundo](https://gabagaleano/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/gabagaleano/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-   **Jorge Moreno**, **Victor Cloquell** y **Juan Pablo Endrino** presentaron el trabajo [La vivienda, una mirada a Europa y a España](https://juan102002.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/juan102002/trabajo_BigData){target="_blank"}.
+
+<br>
+
+-   **Isabel Punter**, **Juan Carlos Pérez** y **Zulay Peñin** presentaron 
+el trabajo [El mercado de la vivienda](https://ipfuster.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://ipfuster.github.io/trabajo_BigData_equipo/){target="_blank"}.
+
+<br>
+
+-   **Yutao Henry Jiang Zheng**, **Lucas Osejo Martínez** y **Javier Arnau Basagoiti Montagut** 
+presentaron el trabajo [El tráfico marítimo de Colombia](https://yhjz57.github.io/trabajo_BigData_equipo/){target="_blank"}. 
+El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_equipo){target="_blank"}.
+
+<br>
+
+-  **Marian Delfa Baena**, **Abel Guarinos Marin** y **Xavier Vidal Roselló** 
+presentaron el trabajo [La evolución demográfica de España](https://mariandelfa.github.io/trabajo_BigData_equipo/){target="_blank"}. 
+El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData_equipo ){target="_blank"}.
+
+<br>
+
+- **Jaume García Martínez**, **Isabel Sanz Miquel** y **Sara Rubio Rosell** presentaron el trabajo [Análisis de la inflación en España 2002-2025](https://sararubio19.github.io/trabajo_BigData_equipo/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/sararubio19/trabajo_BigData_equipo){target="_blank"}.
+
+
+<br>
+
+
+### Trabajos individuales
+
+<br>
+
+-   **Zulay Rodriguez Peñin** realizó el trabajo: [La Pobreza Laboral en la Unión Europea](https://zulayrp3.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/zulayrp3/trabajo_BigData_individual){target="_blank"}.
+
+
+-   **Arantxa Anais Arcos Raimundo** realizó el trabajo: [MCU. Un análisis codificado](https://araarcos.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/araarcos/trabajo_BigData_individual){target="_blank"}.
+
+
+-   **Lucía Bellido Alegre** realizó el trabajo [El mejor libro](https://lbellidoa.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/lbellidoa/trabajo_BigData_individual){target="_blank"}.
+
+-   **Gabriela Galeano Gomes** realizó el trabajo [DO PEOPLE EVEN RIOT?](https://gabagaleano.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/gabagaleano/trabajo_BigData_individual){target="_blank"}.
+
+- **Abel Guarinos Marin** presentó el trabajo [La inflación no mola](https://aguarinosm.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/aguarinosm/trabajo_BigData){target="_blank"}. 
+
+-   **Carlos Hueso Muñoz** presentó el trabajo [Valencia CF: Análisis del rendimiento deportivo y la descapitalización económica (1995-2025)](https://Carloshm13.github.io/trabajo_BigData){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Carloshm13/trabajo_BigData){target="_blank"}.
+
+- **Sara Rubio** presentó el trabajo [Análisis de la precariedad económica juvenil en España (2004-2024)](https://sararubio19.github.io/trabajo_BigData_individual/).El repositorio del trabajo está [aquí](https://github.com/sararubio19/trabajo_BigData_individual)
+
+- **Lucas Osejo Martínez** presentó el trabajo [Análisis de la inflación en Sudamérica: Una guía para la toma de decisiones de inversión](https://lucasosejo.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/LucasOsejo/trabajo_BigData_individual){target="_blank"}.
+
+
+- **Adrian Fernandez Bruque** presentó el trabajo [La primera de España](https://adrifer04.github.io/trabajo_BigData_Individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Adrifer04/trabajo_BigData_individual){target="_blank"}.
+
+-   **Jaume Garcia Martínez** realizó el trabajo: [La Desigualdad en el Mundo Occidental](https://jaumegar.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Jaumegar/trabajo_BigData_individual){target="_blank"}.
+
+
+-   **Isabel Punter Fuster** presentó el trabajo [Conflictos Bélicos](https://ipfuster.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/ipfuster/trabajo_BigData_individual){target="_blank"}.
+
+-   **Simón Casañ Olmos** presentó el trabajo [Mercado Fichajes Era Dorada del Fútbol](https://simoncasan.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/simoncasan/trabajo_BigData_individual){target="_blank"}.
+
+
+-   **Jorge Moreno Lahiguera** presentó el trabajo [Mejores Universidades del Mundo](https://molajor05.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/molajor05/trabajo_BigData_individual){target="_blank"}.
+
+-   **Marian Delfa Baena** presentó el trabajo [El gran problema del desempleo](https://mariandelfa.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/mariandelfa/trabajo_BigData_individual){target="_blank"}.
+
+-   **Yutao Henry Jiang Zheng** presentó el trabajo [La población de animales de granja en Europa](https://yhjz57.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/YHJZ57/trabajo_BigData_individual){target="_blank"}.
+
+-   **Noura Es Salhi Piquer** presentó el trabajo [Sabrina Carpenter](https://nuraesp.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nuraesp/trabajo_BigData_individual){target="_blank"}.
+
+-   **Juan Carlos Pérez Hernando** presentó el trabajo [Algunos datos sobre España](https://jcperez21.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/jcperez21/trabajo_BigData_individual){target="_blank"}.
+
+
+::: {.callout-important collapse="false" appearance="default" icon="false"}
+### Trabajos que han de volver a subirse
+
+-   **Javier Basagoiti** realizó el trabajo: [La brecha educativa en Colombia](https://javierbasagoiti8.github.io/TRABAJO_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/javierbasagoiti8/trabajo_BigData_individual){target="_blank"}.
+
+-   **Isabel Sanz Miquel** presentó el trabajo [Un análisis de la educación terciaria y el nivel de riqueza](https://IsabelSanz87.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/IsabelSanz87/trabajo_BigData_individual){target="_blank"}.
+
+-  **Piovesan Giulia** presentó el trabajo [Analisis de la brecha de genero en el salario y en el empleo](https://giuliapiovesan-beep.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/giuliapiovesan-beep/trabajo_BigData_individual){target="_blank"}.
+
+- **Víctor Cloquell Pérez** presentó el trabajo [F1 mola](https://viclope.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/viclope/trabajo_BigData_individual){target="_blank"}.
+
+- **Xavi Vidal Roselló** presentó el trabajo [Análisis macroeconómico estructural: un estudio comparativo](https://xavividal04.github.io/trabajo_BigData_individual){target="_blank"}. El repo del trabajo está [aquí](https://github.com/xavividal04/trabajo_BigData_individual){target="_blank"}.
+
+-   **Rayan Akhnati Tafar** presentó el trabajo [Consumo o Inversión? Indicadores de pre-recesión](https://rayanakhnati2.github.io/trabajo_BigData_individual/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/rayanakhnati2/trabajo_BigData_individual){target="_blank"}.
+:::
+
+
+<br><br>
+
+
+------------------------------------------------------------------------
+
+::: {.tocify-extend-page data-unique="tocify-extend-page" style="height: 0;"}
+:::

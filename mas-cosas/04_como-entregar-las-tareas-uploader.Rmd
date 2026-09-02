@@ -89,7 +89,7 @@ Los nombres de los ficheros no son sólo una manía, **SON IMPORTANTES!!!** y es
 
 ### 4. Fecha límite de entrega
 
-Evidentemente, las tareas hay que entregarlas antes de su **fecha límite de entrega**. Las fechas límites de entrega serán, si no se anuncia expresamente otra cosa, los **lunes a las 23:59**.
+Evidentemente, las tareas hay que entregarlas antes de su **fecha límite de entrega**. Las fechas límites de entrega serán, si no se anuncia expresamente otra cosa, los **martes a las 23:59**.
 
 Ya sabes que la entrega se hace depositando tu fichero en un `uploader`. Os enviaré por mail el mismo lunes (generalmente por la mañana) la dirección web del uploader.^[Lo siento, pero seguramente no podré enviarlo antes, pero piensa que solo es arrastar y subir un fichero a una dirección web.]
 
