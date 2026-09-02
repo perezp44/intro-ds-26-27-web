@@ -1,0 +1,346 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
+
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$presentation-heading-color: #325b74; /* Pantone Midnight - Fall 2022 */
+$presentation-title-slide-text-align: "left";
+$link-color: #325b74;
+$code-block-font-size: 0.7em;
+
+/*-- scss:rules --*/
+
+#title-slide .title, #title-slide .title * { color: #325b74 !important; font-weight: bold; }
+//#title-slide .title { color: #325b74 !important; font-weight: bold; }
+#title-slide .subtitle {color: #325b74;font-weight: bold}
+#title-slide .author {text-align: center;}
+#title-slide .institute {text-align: center;}
+#title-slide .date {text-align: left;}
+
+/* xq los enlaces de la ultima slide no eran cliclables por estar en un contenedor flex */
+.reveal a {
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  z-index: 999 !important;
+  position: relative !important;
+}
+
+
+/* cosas mias (pjp) */
+
+/* Themes
+/* Estilo para la diapositiva "Dark" */
+.tema-oscuro {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Estilo para la diapositiva "Especial" */
+.tema-especial {
+  background-color: #fdf6e3;
+  color: #657b83;
+}
+
+
+
+//tamaño del texto de una slide
+.reveal .tiny-90 {
+  font-size: 0.90em;
+}
+
+.reveal .tiny-80 {
+  font-size: 0.80em;
+}
+
+.reveal .tiny-70 {
+  font-size: 0.40em;
+}
+
+
+
+
+/* Lista indentada:   .lista-indentada   */
+.reveal .slides section { /* Prioridad máxima para Quarto/Revealjs */
+  .lista-indentada {
+    ul, ol { 
+      margin: 1.0em 0 2.0em 4.0em !important;    /* arriba, derecha, abajo, izquierda (AQUI la indentacion) */
+      list-style-type: disc !important;          /* Punto (bullet) con relleno sólido */
+      
+      ul, ol { 
+        margin: 0.8em 0 0.8em 1.5em !important;  /* Margen extra para el segundo nivel */
+        font-size: 0.9em !important;             /* Texto un poco más pequeño en subpuntos */
+        list-style-type: disc !important;         /* Mantiene el punto sólido en subpuntos */
+      }
+    }
+    li { 
+      margin-bottom: 1.5em !important;           /* Espacio entre un ítem y el siguiente */
+      line-height: 1.6 !important;               /* Interlineado para lectura cómoda */
+    }
+  }
+}
+
+/* 1. Elementos ya pasados: Menos difuminado, pero aún pequeños */
+.lista-desvanece .fragment.visible:not(.current-fragment) {
+    opacity: 0.75 !important; /* Subido de 0.25 a 0.5 */
+    filter: blur(0.7px) !important; /* Bajado de 1.5px a 1px */
+    transform: scale(0.8) !important; /* Un poco menos pequeño */
+    transform-origin: left center;
+    //transition: all 0.5s ease-in-out !important;
+}
+
+/* 2. Elemento activo: Foco total */
+.lista-desvanece .fragment.current-fragment {
+    opacity: 1 !important;
+    filter: blur(0px) !important;
+    transform: scale(1.05) !important;
+    transform-origin: left center;
+    transition: all 0.4s ease-in-out !important;
+}
+
+
+/* Para las listas: Forzamos el margen en cualquier li que siga a otro li */
+.lista-espaciada-25 li + li {
+  margin-top: 2.5rem !important;
+}
+
+/* Para los párrafos: Forzamos el margen en cualquier p que siga a otro p */
+.parrafos-espaciados-15 p + p {
+  margin-top: 1.5rem !important;
+}
+
+
+
+// vienen de qq_verdes
+
+/*
+h5 { color: purple !important;
+  font-size: 1.1em;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin-top: 30px;
+  margin-bottom: 23px; }
+*/
+
+.my-background {
+  background-color: #f5f2f3;
+}
+
+.verdeoscuro {
+  color:  #33576d ;
+  font-weight: bold;
+}
+
+
+.violetita {
+  color: #bd2a78;
+  font-weight: bold;
+}
+
+.naranja-bg {
+  background-color:#FF8C00;
+}
+
+
+.amarillo-bg {
+  background-color:#FFFF00;
+}
+
+.centradisimo-inicial {
+  text-align: center !important;
+  margin-bottom: 0px;
+  font-size: 0.95em;
+}
+
+
+.centradisimo {
+  text-align: center !important;
+  margin-top: 44px;
+  margin-bottom: 0px;
+  font-size: 0.95em;
+}
+
+
+.importante {
+  color: red;
+  background-color: yellow;
+}
+
+.large { font-size: 140%; }
+.small { font-size: 80%; }
+.small90 { font-size: 90%; }
+.small80 { font-size: 80%; }
+.small70 { font-size: 70%; }
+  
+.small2 { font-size: 60%; }
+.small60 { font-size: 60%; }
+
+
+.purple{ color: #c077af; }
+
+
+
+/* links */
+a {
+  color: #5ebccf;
+}
+
+a:hover {
+ color: #50a0b0; /* darker color when hovering */
+}
+
+
+
+/* Ocultar el caption de las imágenes */
+/* Ocultar captions de figuras */
+.figure-caption, 
+.caption,
+figcaption,
+.fig-cap {
+    display: none !important;
+}
+
+
+
+/* Clase para resaltar texto con fondo verde claro */
+.highlight-green {
+    background-color: #d4edda;  /* Verde claro suave */
+    padding: 0.2em 0.4em;       /* Espaciado interno */
+    border-radius: 3px;         /* Bordes redondeados */
+    color: #155724;             /* Texto verde oscuro para contraste */
+    font-weight: 500;           /* Texto ligeramente más grueso */
+}
+
+
+/* H2 centrado y violetita */
+/* Clase para la diapositiva: H2 arriba, centrado, violetita y con espacio inferior */
+.reveal .slides section.h2-violetita {
+  top: 0 !important;
+  display: block !important;
+  height: 100% !important;
+  padding-top: 0.5em !important; 
+  //vertical-align: top !important;
+
+  h2 {
+    /* Color y Grosor */
+    color: #bd2a78 !important;
+    font-weight: 700 !important; 
+    
+    /* Tipografía Moderneta */
+    font-family: 'Inter', 'Montserrat', system-ui, sans-serif !important;
+    
+    /* Centrado Horizontal */
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    display: block !important;
+    
+    /* Posición: Subimos el título y empujamos el contenido de abajo */
+    margin-top: -0.5em !important;    /* Lo pega al techo */
+    margin-bottom: 1.5em !important;    /* <--- AQUÍ: Más espacio con la siguiente línea */
+    
+    /* Tamaño y Espaciado */
+    font-size: 0.83em !important;           
+    letter-spacing: 0.06em !important;   
+    text-transform: none;               
+  }
+}
+
+
+/* Clase que replica el estilo de h2.violetita pero sin ser un H2 real para que no se cree una nueva slide */
+.como-violetita {
+    /* Color y Grosor */
+    color: #bd2a78 !important;
+    font-weight: 700 !important; 
+    
+    /* Tipografía Moderneta */
+    font-family: 'Inter', 'Montserrat', system-ui, sans-serif !important;
+    
+    /* Centrado Horizontal */
+    text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    display: block !important;
+    
+    /* Posición y Espaciado */
+    margin-top: 0.5em !important;    
+    margin-bottom: 1.5em !important; 
+    
+    /* Tamaño y Espaciado de letras */
+    font-size: 0.83em !important;           
+    letter-spacing: 0.06em !important;   
+    text-transform: none;               
+}
+
+
+
+/* ============================================================
+   ESTILOS PARA CAJAS FLEXIBLES EN QUARTO (REVEAL.JS)
+   ============================================================ */
+
+:root {
+  --my-flex-bg: #f0f8ff;      /* Azul claro de fondo */
+  --my-flex-border: #e75480;  /* Rosa elegante del borde */
+}
+
+/* Contenedor de las columnas */
+.my-flex-cols {
+  display: flex !important;
+  gap: 1.5em;
+  align-items: stretch;
+  margin: 1em 0;
+  width: 100%;
+}
+
+/* La caja de la columna */
+div.my-flex-cols div.columna {
+  flex: 1;
+  background-color: var(--my-flex-bg) !important;
+  border: 3px solid var(--my-flex-border) !important;
+  border-radius: 12px;
+  padding: 1.2em;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Reset de listas para que no hereden márgenes extraños de Revealjs */
+.columna ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Alineación de Bullet y Texto en la misma línea */
+.columna li {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.2; /* Ajusta la altura de línea si es necesario */
+}
+
+/* El punto del bullet (negro y alineado) */
+.columna li::before {
+  content: "•";
+  color: currentColor; /* Usa el color del texto (negro por defecto) */
+  font-weight: bold;
+  flex-shrink: 0;      /* Evita que el punto se aplaste si el texto es largo */
+}
+
+
+
+
+
+
+
+
+/* Una clase para lista espaciada */
+.lista-espaciada li {
+  margin-bottom: 2.5rem !important; /* El !important fuerza que se aplique */
+}
+
+
+.texto-centrado {
+  text-align: center;
+}

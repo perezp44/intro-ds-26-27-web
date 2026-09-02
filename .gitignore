@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto
+.positai
+STRUCTURE.md
+/.quarto/
+/.luarc.json
+/docs/
+.RData

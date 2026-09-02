@@ -1,0 +1,108 @@
+---
+output:
+  html_document:
+    #css: !expr here::here("assets", "styles_pjp.css") 
+    #css: assets/styles_pjp.css
+    theme: united #cerulean  #o flatly(gris)  united (naranja) spacelab(azulito) o yeti o faltly o sandstone
+    #highlight: kate 
+    self_contained: yes
+    number_sections: no
+    #includes:
+       #in_header: google-analytics.html
+    toc: true
+    toc_float: true
+    #code_folding: show
+    #self_contained: TRUE
+---
+
+<br>
+
+
+# Curso 2024-2025
+
+<br>
+
+::: blue
+Como parte de la evaluación continua, los 25 estudiantes del curso 2024-25 elaboraron un trabajo. Los cursos anteriores se hacían 2 trabajos, el primero en equipo pero, este curso, la [Dana](https://ctxt.es/es/20241201/Politica/48117/Yayo-Herrero-Vanesa-Jimenez-dana-cambio-climatico-jovenes-Valencia-crisis-ecologica-abandono-politico.htm) nos obligó a un cambio de planes. Puedes ver los trabajos en los siguientes enlaces:
+:::
+
+<br><br>
+
+### Trabajos en equipo
+
+<br>
+
+- **Carlos Eduardo Albornoz Manzano** presentó el trabajo [Spotify Wrapped 2024 en R](https://siwilin.github.io/trabajo_bigdata){target="_blank"}. El repo del trabajo está [aquí](https://github.com/siwilin/trabajo_bigdata){target="_blank"}.
+
+<br>
+
+
+- **Álvaro Tudela García** presentó el trabajo [Turismo en España: Flujos, Perfil Turístico y Motivaciones](https://alvarotug.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/alvarotug/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Haojie Zhang** presentó el trabajo [Ciencia de Datos: Tendencias Globales en Salarios y Empleos](https://haojie3201.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/haojie3201/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Lamya Abdaym**,  **Tomás Berríos** y **Andrea Segovia** presentaron el trabajo [Acceso a la vivienda y turistíficación](https://tobesua.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/tobesua/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Maria Celeste Lupo** presentó el trabajo [Taylor Swift](https://celestelupo.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/celestelupo/trabajo_BigData){target="_blank"}.
+
+<br>
+
+- **Joan Lluís Garcia Rodriguez** y **Jordi Gomar Sancho** presentaron el trabajo [Euroleague Database](https://joan1723.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/joan1723/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Max García Poveda** presentó el trabajo [Macroeconomía Internacional y la Experiencia Australiana: Un Análisis Comparativo](https://gpmax8.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/gpmax8/trabajo_BigData){target="_blank"}.
+
+<br>
+
+- **Ainhoa Piles Montó** y **Sol Martín Perez** presentaron el trabajo [Los coches eléctricos](https://Solmarpe.github.io/trabajo_BigData/.){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Solmarpe/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+-  **Julio Kader Saad Menendez** presentó el trabajo [El último Barça campeón (temporada 22-23)](https://jukad10.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/jukad10/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Adrià García**, **Alejandro Boix** y **Esteban Pardo** presentaron el trabajo [La Liga española en profundidad](https://estebanpardo50.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/estebanpardo50/trabajo_BigData){target="_blank"}.
+
+<br>
+
+- **Juan José Mier Martínez** presentó el trabajo [Elecciones presidenciales en los Estados Unidos](https://juanmier27.github.io/trabajo_Bigdata/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/JuanMier27/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Nadia Barrantes** y **Mireia Nicolau** presentaron el trabajo [Los Simpsons](https://nadinka1.github.io/trabajo_BigData/.){target="_blank"}. El repo del trabajo está [aquí](https://github.com/nadinka1/trabajo_BigData){target="_blank"}.
+
+
+<br>
+
+- **Emma Roselló Ortiz** y **Laura Martí Molins** presentaron el trabajo [La evolución del IPC en España](https://lauramarti7.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/lauramarti7/trabajo_BigData){target="_blank"}.
+
+<br>
+
+- **Joan Puigcerver** y **Carles Soler** presentaron el trabajo [Análisis sectorial agrícola en España](https://carlesoler8.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/Carlesoler8/trabajo_BigData){target="_blank"}.
+
+<br>
+
+- **Marius Bulat** presentó el trabajo [Análisis de diversos riesgos sobre el territorio de la Comunidad Valenciana](https://marbul33.github.io/trabajo_BigData/){target="_blank"}. El repo del trabajo está [aquí](https://github.com/marbul33/trabajo_BigData){target="_blank"}.
+
+<br><br>
+
+
+------------------------------------------------------------------------
+
+::: {.tocify-extend-page data-unique="tocify-extend-page" style="height: 0;"}
+:::
