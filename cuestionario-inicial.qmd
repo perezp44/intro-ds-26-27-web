@@ -28,15 +28,15 @@ La primera parte del cuestionario consiste simplemente en poner vuestros **datos
 
 <br>
 
-Después de cumplimentar vuestros datos de identificación, tenéis que contestar a **10 preguntas**. Las primeras 8 preguntas son sobre vuestros conocimientos de programación y el formato de respuesta es de texto libre^[Por favor, que las respuestas estén bien escritas; vamos, que sean legibles]. Las **2 últimas preguntas son muy fáciles**, se trata simplemente de ver donde habéis nacido los estudiantes del curso y una canción que os guste, pero tenéis que prestar atención al formato en el que espero las respuestas.
+Después de cumplimentar vuestros datos de identificación, tenéis que contestar a **10 preguntas**. Las primeras 8 preguntas están relacionadas con vuestros conocimientos de programación y el formato de respuesta es de texto libre^[Por favor, que las respuestas estén bien redactadas y escritas; vamos, que sean legibles]. Las **2 últimas preguntas son muy fáciles**, se trata simplemente de ver donde habéis nacido los estudiantes del curso y una canción que os guste, pero tenéis que prestar atención al formato en el que espero las respuestas.
 
 Estas son **las 10 preguntas**:
 
 1.  ¿Sabes de qué va, cuales son los contenidos y objetivos de la asignatura? ¿Has leído la guía docente?
 
-2.  ¿Por qué te has matriculado en la asignatura?
+2.  ¿Por qué te has matriculado en la asignatura? ¿Cuál es tu objetivo(s) en el curso?
 
-3.  ¿Cuál es tu objetivo(s) en el curso?
+3. ¿Cómo usas las IA's? ¿Para aprender, para redactar trabajos, ...? Recomiendame una IA que uses y que no sea muy conocida
 
 4.  ¿Sabes qué es la ciencia de datos? Explica un poco qué es (con tus palabras)
 
@@ -54,7 +54,9 @@ Estas son **las 10 preguntas**:
 
 <br>
 
-La **fecha límite** para contestar el formulario es el **{{< var my_fecha_limite_cuestionario >}} a las 23:59**.
+Se trata de que contestes el cuestionario [tomándotelo en serio, pero sin  volverte loco/loca con él]{.underline}
+
+La **fecha límite** para contestar es el **{{< var my_fecha_limite_cuestionario >}} a las 23:59**.
 
 
 

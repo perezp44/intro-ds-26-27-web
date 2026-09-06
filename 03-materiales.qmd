@@ -17,7 +17,7 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 
 -   **Tutoriales** : digamos que son los apuntes/libro oficial del curso. Algunas de las tareas a hacer en casa consistirán en leer secciones de estos tutoriales. 
 
--   **Guiones de clase/Ejemplos/Ejercicios** : cada sesión (o grupo de sesiones) del curso tendrá un guión asociado con los materiales a usar en esa clase. Los iré colgando conforme avancen las clases.
+-   **Guiones de clase** : cada sesión (o grupo de sesiones) del curso tendrá un guión asociado con los materiales a usar en esa clase. Los iré colgando conforme avancen las clases.
 
 :::
 
