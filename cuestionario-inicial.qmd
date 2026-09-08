@@ -36,7 +36,7 @@ Estas son **las 10 preguntas**:
 
 2.  ¿Por qué te has matriculado en la asignatura? ¿Cuál es tu objetivo(s) en el curso?
 
-3. ¿Cómo usas las IA's? ¿Para aprender, para redactar trabajos, ...? Recomiendame una IA que uses y que no sea muy conocida
+3. ¿Cómo usas las IA's? ¿Para aprender, para redactar trabajos, ...? Recomiendame (si puedes) una IA que uses para algo concreto y que no sea muy conocida
 
 4.  ¿Sabes qué es la ciencia de datos? Explica un poco qué es (con tus palabras)
 
