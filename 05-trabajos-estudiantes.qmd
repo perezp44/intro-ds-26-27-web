@@ -9,7 +9,7 @@ toc-title-document: "Indice de contenidos"
 ## Trabajos (curso {{< var my_curso_academico >}})
 
 
-Los  ¿34? estudiantes del **curso {{< var my_curso_academico >}}**, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Podrás verlos en los siguientes enlaces ... pero a finales de diciembre.
+Los  ¿33? estudiantes del **curso {{< var my_curso_academico >}}**, como parte de la evaluación continua, tuvieron que presentar dos trabajos, uno individual y otro en equipo. Podrás verlos aquí, ... pero a finales de diciembre.
 
 
 
