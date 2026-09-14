@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
 <title>trabajos_2024-25 – Programación y manejo de datos con R</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -18,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 </style>
+
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
@@ -32,10 +39,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d546e77db9b79ff45cab1724b04f94b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-9a7dff649313491d3cb860140645fda8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-7c85c393d4758721cc53dfe1861e5672.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../site_libs/bootstrap/bootstrap-c5cadb94a28a9dc49f6b07587a41d9f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -61,15 +69,23 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script><link rel="stylesheet" href="../assets/styles.css">
+}</script>
+
+
+<link rel="stylesheet" href="../assets/styles.css">
 </head>
+
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../imagenes/uv.jpeg" alt="" class="navbar-logo"></a>
+    <img src="../imagenes/uv.jpeg" alt="" class="navbar-logo light-content">
+    <img src="../imagenes/uv.jpeg" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Programación y manejo de datos con R</span>
     </a>
@@ -80,14 +96,14 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item compact">
+  <li class="nav-item compact">
     <a class="nav-link" href="../index.html"> <i class="bi bi-house-door" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
     <a class="nav-link" href="../01-guia-del-curso.html"> 
 <span class="menu-text">Guía del curso</span></a>
   </li>  
@@ -114,108 +130,103 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
    
   <ul>
-<li>
-<a href="#curso-2024-2025" id="toc-curso-2024-2025" class="nav-link active" data-scroll-target="#curso-2024-2025">Curso 2024-2025</a>
+  <li><a href="#curso-2024-2025" id="toc-curso-2024-2025" class="nav-link active" data-scroll-target="#curso-2024-2025">Curso 2024-2025</a>
   <ul class="collapse">
-<li><a href="#trabajos-en-equipo" id="toc-trabajos-en-equipo" class="nav-link" data-scroll-target="#trabajos-en-equipo">Trabajos en equipo</a></li>
+  <li><a href="#trabajos-en-equipo" id="toc-trabajos-en-equipo" class="nav-link" data-scroll-target="#trabajos-en-equipo">Trabajos en equipo</a></li>
+  </ul></li>
   </ul>
-</li>
-  </ul><div class="toc-actions"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/mas-cosas/07-trabajos_2024-25.Rmd" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/mas-cosas/07-trabajos_2024-25.Rmd" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header><p><br></p>
-<section id="curso-2024-2025" class="level1"><h1>Curso 2024-2025</h1>
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<p><br></p>
+<section id="curso-2024-2025" class="level1">
+<h1>Curso 2024-2025</h1>
 <p><br></p>
 <div class="blue">
 <p>Como parte de la evaluación continua, los 25 estudiantes del curso 2024-25 elaboraron un trabajo. Los cursos anteriores se hacían 2 trabajos, el primero en equipo pero, este curso, la <a href="https://ctxt.es/es/20241201/Politica/48117/Yayo-Herrero-Vanesa-Jimenez-dana-cambio-climatico-jovenes-Valencia-crisis-ecologica-abandono-politico.htm">Dana</a> nos obligó a un cambio de planes. Puedes ver los trabajos en los siguientes enlaces:</p>
 </div>
 <p><br><br></p>
-<section id="trabajos-en-equipo" class="level3"><h3 class="anchored" data-anchor-id="trabajos-en-equipo">Trabajos en equipo</h3>
+<section id="trabajos-en-equipo" class="level3">
+<h3 class="anchored" data-anchor-id="trabajos-en-equipo">Trabajos en equipo</h3>
 <p><br></p>
 <ul>
-<li>
-<strong>Carlos Eduardo Albornoz Manzano</strong> presentó el trabajo <a href="https://siwilin.github.io/trabajo_bigdata" target="_blank">Spotify Wrapped 2024 en R</a>. El repo del trabajo está <a href="https://github.com/siwilin/trabajo_bigdata" target="_blank">aquí</a>.</li>
+<li><strong>Carlos Eduardo Albornoz Manzano</strong> presentó el trabajo <a href="https://siwilin.github.io/trabajo_bigdata" target="_blank">Spotify Wrapped 2024 en R</a>. El repo del trabajo está <a href="https://github.com/siwilin/trabajo_bigdata" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Álvaro Tudela García</strong> presentó el trabajo <a href="https://alvarotug.github.io/trabajo_BigData/" target="_blank">Turismo en España: Flujos, Perfil Turístico y Motivaciones</a>. El repo del trabajo está <a href="https://github.com/alvarotug/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Álvaro Tudela García</strong> presentó el trabajo <a href="https://alvarotug.github.io/trabajo_BigData/" target="_blank">Turismo en España: Flujos, Perfil Turístico y Motivaciones</a>. El repo del trabajo está <a href="https://github.com/alvarotug/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Haojie Zhang</strong> presentó el trabajo <a href="https://haojie3201.github.io/trabajo_BigData/" target="_blank">Ciencia de Datos: Tendencias Globales en Salarios y Empleos</a>. El repo del trabajo está <a href="https://github.com/haojie3201/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Haojie Zhang</strong> presentó el trabajo <a href="https://haojie3201.github.io/trabajo_BigData/" target="_blank">Ciencia de Datos: Tendencias Globales en Salarios y Empleos</a>. El repo del trabajo está <a href="https://github.com/haojie3201/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Lamya Abdaym</strong>, <strong>Tomás Berríos</strong> y <strong>Andrea Segovia</strong> presentaron el trabajo <a href="https://tobesua.github.io/trabajo_BigData/" target="_blank">Acceso a la vivienda y turistíficación</a>. El repo del trabajo está <a href="https://github.com/tobesua/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Lamya Abdaym</strong>, <strong>Tomás Berríos</strong> y <strong>Andrea Segovia</strong> presentaron el trabajo <a href="https://tobesua.github.io/trabajo_BigData/" target="_blank">Acceso a la vivienda y turistíficación</a>. El repo del trabajo está <a href="https://github.com/tobesua/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Maria Celeste Lupo</strong> presentó el trabajo <a href="https://celestelupo.github.io/trabajo_BigData/" target="_blank">Taylor Swift</a>. El repo del trabajo está <a href="https://github.com/celestelupo/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Maria Celeste Lupo</strong> presentó el trabajo <a href="https://celestelupo.github.io/trabajo_BigData/" target="_blank">Taylor Swift</a>. El repo del trabajo está <a href="https://github.com/celestelupo/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Joan Lluís Garcia Rodriguez</strong> y <strong>Jordi Gomar Sancho</strong> presentaron el trabajo <a href="https://joan1723.github.io/trabajo_BigData/" target="_blank">Euroleague Database</a>. El repo del trabajo está <a href="https://github.com/joan1723/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Joan Lluís Garcia Rodriguez</strong> y <strong>Jordi Gomar Sancho</strong> presentaron el trabajo <a href="https://joan1723.github.io/trabajo_BigData/" target="_blank">Euroleague Database</a>. El repo del trabajo está <a href="https://github.com/joan1723/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Max García Poveda</strong> presentó el trabajo <a href="https://gpmax8.github.io/trabajo_BigData/" target="_blank">Macroeconomía Internacional y la Experiencia Australiana: Un Análisis Comparativo</a>. El repo del trabajo está <a href="https://github.com/gpmax8/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Max García Poveda</strong> presentó el trabajo <a href="https://gpmax8.github.io/trabajo_BigData/" target="_blank">Macroeconomía Internacional y la Experiencia Australiana: Un Análisis Comparativo</a>. El repo del trabajo está <a href="https://github.com/gpmax8/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Ainhoa Piles Montó</strong> y <strong>Sol Martín Perez</strong> presentaron el trabajo <a href="https://Solmarpe.github.io/trabajo_BigData/." target="_blank">Los coches eléctricos</a>. El repo del trabajo está <a href="https://github.com/Solmarpe/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Ainhoa Piles Montó</strong> y <strong>Sol Martín Perez</strong> presentaron el trabajo <a href="https://Solmarpe.github.io/trabajo_BigData/." target="_blank">Los coches eléctricos</a>. El repo del trabajo está <a href="https://github.com/Solmarpe/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Julio Kader Saad Menendez</strong> presentó el trabajo <a href="https://jukad10.github.io/trabajo_BigData/" target="_blank">El último Barça campeón (temporada 22-23)</a>. El repo del trabajo está <a href="https://github.com/jukad10/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Julio Kader Saad Menendez</strong> presentó el trabajo <a href="https://jukad10.github.io/trabajo_BigData/" target="_blank">El último Barça campeón (temporada 22-23)</a>. El repo del trabajo está <a href="https://github.com/jukad10/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Adrià García</strong>, <strong>Alejandro Boix</strong> y <strong>Esteban Pardo</strong> presentaron el trabajo <a href="https://estebanpardo50.github.io/trabajo_BigData/" target="_blank">La Liga española en profundidad</a>. El repo del trabajo está <a href="https://github.com/estebanpardo50/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Adrià García</strong>, <strong>Alejandro Boix</strong> y <strong>Esteban Pardo</strong> presentaron el trabajo <a href="https://estebanpardo50.github.io/trabajo_BigData/" target="_blank">La Liga española en profundidad</a>. El repo del trabajo está <a href="https://github.com/estebanpardo50/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Juan José Mier Martínez</strong> presentó el trabajo <a href="https://juanmier27.github.io/trabajo_Bigdata/" target="_blank">Elecciones presidenciales en los Estados Unidos</a>. El repo del trabajo está <a href="https://github.com/JuanMier27/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Juan José Mier Martínez</strong> presentó el trabajo <a href="https://juanmier27.github.io/trabajo_Bigdata/" target="_blank">Elecciones presidenciales en los Estados Unidos</a>. El repo del trabajo está <a href="https://github.com/JuanMier27/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Nadia Barrantes</strong> y <strong>Mireia Nicolau</strong> presentaron el trabajo <a href="https://nadinka1.github.io/trabajo_BigData/." target="_blank">Los Simpsons</a>. El repo del trabajo está <a href="https://github.com/nadinka1/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Nadia Barrantes</strong> y <strong>Mireia Nicolau</strong> presentaron el trabajo <a href="https://nadinka1.github.io/trabajo_BigData/." target="_blank">Los Simpsons</a>. El repo del trabajo está <a href="https://github.com/nadinka1/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Emma Roselló Ortiz</strong> y <strong>Laura Martí Molins</strong> presentaron el trabajo <a href="https://lauramarti7.github.io/trabajo_BigData/" target="_blank">La evolución del IPC en España</a>. El repo del trabajo está <a href="https://github.com/lauramarti7/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Emma Roselló Ortiz</strong> y <strong>Laura Martí Molins</strong> presentaron el trabajo <a href="https://lauramarti7.github.io/trabajo_BigData/" target="_blank">La evolución del IPC en España</a>. El repo del trabajo está <a href="https://github.com/lauramarti7/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Joan Puigcerver</strong> y <strong>Carles Soler</strong> presentaron el trabajo <a href="https://carlesoler8.github.io/trabajo_BigData/" target="_blank">Análisis sectorial agrícola en España</a>. El repo del trabajo está <a href="https://github.com/Carlesoler8/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Joan Puigcerver</strong> y <strong>Carles Soler</strong> presentaron el trabajo <a href="https://carlesoler8.github.io/trabajo_BigData/" target="_blank">Análisis sectorial agrícola en España</a>. El repo del trabajo está <a href="https://github.com/Carlesoler8/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br></p>
 <ul>
-<li>
-<strong>Marius Bulat</strong> presentó el trabajo <a href="https://marbul33.github.io/trabajo_BigData/" target="_blank">Análisis de diversos riesgos sobre el territorio de la Comunidad Valenciana</a>. El repo del trabajo está <a href="https://github.com/marbul33/trabajo_BigData" target="_blank">aquí</a>.</li>
+<li><strong>Marius Bulat</strong> presentó el trabajo <a href="https://marbul33.github.io/trabajo_BigData/" target="_blank">Análisis de diversos riesgos sobre el territorio de la Comunidad Valenciana</a>. El repo del trabajo está <a href="https://github.com/marbul33/trabajo_BigData" target="_blank">aquí</a>.</li>
 </ul>
 <p><br><br></p>
 <hr>
@@ -224,7 +235,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
-</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -275,13 +290,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -624,7 +640,8 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>© 2026 Pedro J. Pérez</p>
 </div>   
@@ -633,7 +650,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/mas-cosas/07-trabajos_2024-25.Rmd" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-<li class="nav-item compact">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/perezp44">
       <i class="bi bi-github" role="img">
 </i> 
@@ -656,9 +673,11 @@ ul.task-list li input[type="checkbox"] {
 </a>
   </li>  
 </ul>
-</div>
+    </div>
   </div>
 </footer>
+
+
 
 
 </body></html>

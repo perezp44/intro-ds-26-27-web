@@ -9,3 +9,5 @@ STRUCTURE.md
 /.quarto/
 /.luarc.json
 .RData
+
+**/*.quarto_ipynb
