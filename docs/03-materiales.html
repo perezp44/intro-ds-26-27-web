@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
 <title>materiales – Programación y manejo de datos con R</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -54,6 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
+
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -67,10 +74,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d546e77db9b79ff45cab1724b04f94b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-9a7dff649313491d3cb860140645fda8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7c85c393d4758721cc53dfe1861e5672.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-c5cadb94a28a9dc49f6b07587a41d9f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -96,15 +104,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-submit-button-title": "Enviar",
     "search-label": "Buscar"
   }
-}</script><link rel="stylesheet" href="assets/styles.css">
+}</script>
+
+
+<link rel="stylesheet" href="assets/styles.css">
 </head>
+
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo"></a>
+    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo light-content">
+    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Programación y manejo de datos con R</span>
     </a>
@@ -115,14 +131,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item compact">
+  <li class="nav-item compact">
     <a class="nav-link" href="./index.html"> <i class="bi bi-house-door" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
     <a class="nav-link" href="./01-guia-del-curso.html"> 
 <span class="menu-text">Guía del curso</span></a>
   </li>  
@@ -149,33 +165,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text"></span></a>
   </li>  
 </ul>
-</div> <!-- /navcollapse -->
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">En esta página</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">En esta página</h2>
    
   <ul>
-<li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#tutoriales" id="toc-tutoriales" class="nav-link" data-scroll-target="#tutoriales">Tutoriales</a></li>
   <li><a href="#guiones-de-clase" id="toc-guiones-de-clase" class="nav-link" data-scroll-target="#guiones-de-clase">Guiones de clase</a></li>
   <li><a href="#plantillas-para-los-trabajos" id="toc-plantillas-para-los-trabajos" class="nav-link" data-scroll-target="#plantillas-para-los-trabajos">Plantillas para los trabajos</a></li>
-  <li><a href="#bibliograf%C3%ADa" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliograf%C3%ADa">Bibliografía</a></li>
-  <li><a href="#m%C3%A1s-bibliograf%C3%ADarecursos" id="toc-más-bibliografíarecursos" class="nav-link" data-scroll-target="#m%C3%A1s-bibliograf%C3%ADarecursos">Más bibliografía/Recursos</a></li>
-  </ul><div class="toc-actions"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/03-materiales.qmd" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+  <li><a href="#bibliografía" id="toc-bibliografía" class="nav-link" data-scroll-target="#bibliografía">Bibliografía</a></li>
+  <li><a href="#más-bibliografíarecursos" id="toc-más-bibliografíarecursos" class="nav-link" data-scroll-target="#más-bibliografíarecursos">Más bibliografía/Recursos</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/03-materiales.qmd" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header><div class="callout callout-style-default callout-note no-icon callout-titled">
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Materiales de clase
+<span class="screen-reader-only">Nota</span>Materiales de clase
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -194,14 +220,14 @@ Materiales de clase
 </div>
 <div class="callout-body-container">
 <ul>
-<li>
-<strong>Actualizaré los materiales</strong>, principalmente los guiones de clase, conforme avance el curso</li>
+<li><strong>Actualizaré los materiales</strong>, principalmente los guiones de clase, conforme avance el curso</li>
 </ul>
 </div>
 </div>
 </div>
 <p><br></p>
-<section id="slides" class="level2"><h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
 <ul>
 <li><p><a href="./materiales/slides_00_presentacion-curso.html" target="_blank">Slides-00: Presentación</a></p></li>
 <li><p><a href="./materiales/slides_01_intro_v3.html" target="_blank">Slides-01: Tema 1</a></p></li>
@@ -218,7 +244,9 @@ Materiales de clase
 <li><p><a href="./materiales/slides_07c_webs-con-quarto.html" target="_blank">Slides-07(C): Webs con Quarto</a></p></li>
 </ul>
 <p><br></p>
-</section><section id="tutoriales" class="level2"><h2 class="anchored" data-anchor-id="tutoriales">Tutoriales</h2>
+</section>
+<section id="tutoriales" class="level2">
+<h2 class="anchored" data-anchor-id="tutoriales">Tutoriales</h2>
 <ul>
 <li><p><a href="./materiales/tt_00_prefacio.html" target="_blank">Prefacio</a></p></li>
 <li><p><a href="./materiales/tt_01_introduccion.html" target="_blank">Tutorial 01: Introducción</a></p></li>
@@ -233,17 +261,19 @@ Materiales de clase
 <li><p><a href="./materiales/tt_10_EDA.html" target="_blank">Tutorial 10: Un poco de EDA y modelos</a></p></li>
 </ul>
 <p><br></p>
-</section><section id="guiones-de-clase" class="level2"><h2 class="anchored" data-anchor-id="guiones-de-clase">Guiones de clase</h2>
+</section>
+<section id="guiones-de-clase" class="level2">
+<h2 class="anchored" data-anchor-id="guiones-de-clase">Guiones de clase</h2>
 <ul>
 <li><a href="./guiones/guion_01.zip" target="_blank">Guión 01</a></li>
 </ul>
 <div class="callout callout-style-default callout-important no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Descarga de los guiones
+<span class="screen-reader-only">Importante</span>Descarga de los guiones
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -253,25 +283,31 @@ Descarga de los guiones
 <li>Los guiones se descargan simplemente pinchando en los links; pero, si quieres descargarlos con código:</li>
 </ul>
 <div class="cell">
-<details class="code-fold"><summary>Descargar (y descomprimir) los guiones con código R:</summary><div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">file_to_download</span> <span class="op">&lt;-</span> <span class="st">"guion_xx.zip"</span>  <span class="co">#- Has de cambiar "guion_xx.zip" por guion_01.zip" o "guion_02.zip"</span></span>
-<span></span>
-<span><span class="va">url</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="st">"https://github.com/perezp44/intro-ds-26-27-web/raw/main/guiones/"</span>, <span class="va">file_to_download</span><span class="op">)</span></span>
-<span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/download.file.html">download.file</a></span><span class="op">(</span><span class="va">url</span>, destfile <span class="op">=</span> <span class="va">file_to_download</span><span class="op">)</span></span>
-<span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/utils/unzip.html">unzip</a></span><span class="op">(</span>zipfile <span class="op">=</span> <span class="va">file_to_download</span><span class="op">)</span></span>
-<span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/files.html">file.remove</a></span><span class="op">(</span><span class="va">file_to_download</span><span class="op">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<details class="code-fold">
+<summary>Descargar (y descomprimir) los guiones con código R:</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-overflow-wrap code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>file_to_download <span class="ot">&lt;-</span> <span class="st">"guion_xx.zip"</span>  <span class="co">#- Has de cambiar "guion_xx.zip" por guion_01.zip" o "guion_02.zip"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="fu">paste0</span>(<span class="st">"https://github.com/perezp44/intro-ds-26-27-web/raw/main/guiones/"</span>, file_to_download)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">download.file</span>(url, <span class="at">destfile =</span> file_to_download)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">unzip</span>(<span class="at">zipfile =</span> file_to_download)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">file.remove</span>(file_to_download)</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 </div>
 </div>
 </div>
 </div>
 <p><br></p>
-</section><section id="plantillas-para-los-trabajos" class="level2"><h2 class="anchored" data-anchor-id="plantillas-para-los-trabajos">Plantillas para los trabajos</h2>
+</section>
+<section id="plantillas-para-los-trabajos" class="level2">
+<h2 class="anchored" data-anchor-id="plantillas-para-los-trabajos">Plantillas para los trabajos</h2>
 <p>(dentro de unas semanas)</p>
 <p><br><br></p>
-</section><section id="bibliografía" class="level2"><h2 class="anchored" data-anchor-id="bibliografía">Bibliografía</h2>
+</section>
+<section id="bibliografía" class="level2">
+<h2 class="anchored" data-anchor-id="bibliografía">Bibliografía</h2>
 <ul>
 <li><p>Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund (2023): R for Data Science (2e). <a href="https://r4ds.hadley.nz/" class="uri">https://r4ds.hadley.nz/</a></p></li>
 <li><p>Grolemund, G., Wickham, H. (2019): R para Ciencia de Datos. <a href="https://es.r4ds.hadley.nz/" class="uri">https://es.r4ds.hadley.nz/</a></p></li>
@@ -286,9 +322,12 @@ Descarga de los guiones
 <li><p>B. S. Baumer, D. T. Kaplan, and N. J. Horton: Modern Data Science with R. <a href="https://mdsr-book.github.io/mdsr3e/" class="uri">https://mdsr-book.github.io/mdsr3e/</a></p></li>
 </ul>
 <p><br><br></p>
-</section><section id="más-bibliografíarecursos" class="level2"><h2 class="anchored" data-anchor-id="más-bibliografíarecursos">Más bibliografía/Recursos</h2>
+</section>
+<section id="más-bibliografíarecursos" class="level2">
+<h2 class="anchored" data-anchor-id="más-bibliografíarecursos">Más bibliografía/Recursos</h2>
 <p>La comunidad R es muy dinámica y en general comparte sus materiales, lo que hace que los recursos para aprender R sean, exagerando un poco, casi infinitos. Es imposible abarcarlo todo, es una avalancha continúa de nuevas paquetes, análisis, cursos, libros, etc….</p>
-<section id="recursos-para-buscar-inspiración-para-tus-proyectos" class="level4"><h4 class="anchored" data-anchor-id="recursos-para-buscar-inspiración-para-tus-proyectos">Recursos para buscar inspiración para tus proyectos</h4>
+<section id="recursos-para-buscar-inspiración-para-tus-proyectos" class="level4">
+<h4 class="anchored" data-anchor-id="recursos-para-buscar-inspiración-para-tus-proyectos">Recursos para buscar inspiración para tus proyectos</h4>
 <ul>
 <li><p><a href="https://rweekly.org/">R-weekly</a>: cada semana envían un archivo con los mejores análisis hechos con R esa semana. Tienes que apuntarte <a href="https://feedburner.google.com/fb/a/mailverify?uri=rweekly&amp;loc=en_US">aquí</a>.</p></li>
 <li><p><a href="https://www.r-bloggers.com/">R-bloggers</a>: Un agregador de blogs relacionados con R.</p></li>
@@ -296,7 +335,9 @@ Descarga de los guiones
 <li><p><a href="https://github.com/rfordatascience/tidytuesday">Tidy Tuesday</a>: cada semana lanzan una competición de visualización con unos datos.</p></li>
 </ul>
 <p><br></p>
-</section><section id="más-recursos" class="level4"><h4 class="anchored" data-anchor-id="más-recursos">Más recursos</h4>
+</section>
+<section id="más-recursos" class="level4">
+<h4 class="anchored" data-anchor-id="más-recursos">Más recursos</h4>
 <ul>
 <li><p><a href="http://www.statmethods.net/">Quick-R</a></p></li>
 <li><p><a href="http://r-statistics.co/">r-statistics.co</a></p></li>
@@ -306,13 +347,17 @@ Descarga de los guiones
 <li><p><a href="http://stackoverflow.com/questions/tagged/r">Stack Overflow</a>: si al final acabas utilizando R para tus análisis, seguramente acabarás utilizando Stack Overflow. Es una comunidad de programadores, en la que muchas veces resolverás las dudas que te puedan surgir en tu aprendizaje sobre R.</p></li>
 </ul>
 <p><br></p>
-</section><section id="propuestas-para-aprender-r" class="level4"><h4 class="anchored" data-anchor-id="propuestas-para-aprender-r">Propuestas para aprender R</h4>
+</section>
+<section id="propuestas-para-aprender-r" class="level4">
+<h4 class="anchored" data-anchor-id="propuestas-para-aprender-r">Propuestas para aprender R</h4>
 <ul>
 <li><p><a href="https://www.r-bloggers.com/how-to-get-started-with-data-science-using-r/">How to get started with Data Science using R</a></p></li>
 <li><p><a href="https://www.r-bloggers.com/how-to-learn-r-2/#h.nl3rvdr3ycsc">Tutorials for learning R</a></p></li>
 </ul>
 <p><br></p>
-</section><section id="necesito-un-paquete-para" class="level4"><h4 class="anchored" data-anchor-id="necesito-un-paquete-para">Necesito un paquete para …</h4>
+</section>
+<section id="necesito-un-paquete-para" class="level4">
+<h4 class="anchored" data-anchor-id="necesito-un-paquete-para">Necesito un paquete para …</h4>
 <ul>
 <li><p><a href="https://support.rstudio.com/hc/en-us/articles/201057987-Quick-list-of-useful-R-packages">Listado sencillo</a></p></li>
 <li><p><a href="https://cran.r-project.org/web/views/">Listado completo de CRAN agrupado por temática</a></p></li>
@@ -320,7 +365,9 @@ Descarga de los guiones
 <li><p><a href="https://github.com/rstudio/RStartHere?utm_content=buffercf5d8&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">Listado de pkgs agrupados por fase del análisis</a></p></li>
 </ul>
 <p><br></p>
-</section><section id="awesome-list" class="level4"><h4 class="anchored" data-anchor-id="awesome-list">Awesome list</h4>
+</section>
+<section id="awesome-list" class="level4">
+<h4 class="anchored" data-anchor-id="awesome-list">Awesome list</h4>
 <p>Mucha gente hace sus propias listas de recursos R, aquí tienes algunas:</p>
 <ul>
 <li><p><a href="https://github.com/iamericfletcher/awesome-r-learning-resources">Awesome R Learning Resources</a></p></li>
@@ -333,7 +380,11 @@ Descarga de los guiones
 </div>
 
 
-</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
     const anchorJS = new window.AnchorJS();
@@ -384,13 +435,14 @@ Descarga de los guiones
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -733,7 +785,8 @@ Descarga de los guiones
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">
 <p>© 2026 Pedro J. Pérez</p>
 </div>   
@@ -742,7 +795,7 @@ Descarga de los guiones
 <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/03-materiales.qmd" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-<li class="nav-item compact">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/perezp44">
       <i class="bi bi-github" role="img">
 </i> 
@@ -765,9 +818,11 @@ Descarga de los guiones
 </a>
   </li>  
 </ul>
-</div>
+    </div>
   </div>
 </footer>
+
+
 
 
 </body></html>
