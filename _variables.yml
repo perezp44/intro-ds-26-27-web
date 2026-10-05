@@ -13,9 +13,8 @@ my_curso: "[Escribiendo con R y Quarto](https://perezp44.github.io/intro.to.quar
 
 
 #- las de abajo hay q cambiarlas cada año ----------- AQUI - AQUI
+#- OJO: también hay q cambiar a mano `site-url` y `repo-url` en _quarto.yml (ahí los shortcodes no se resuelven)
 my_title_web: "Programación y manejo de datos con R"
-my_url_web: https://perezp44.github.io/intro-ds-26-27.web/
-my_url_repo_github: https://github.com/perezp44/intro-ds-26-27-web/
 my_curso_academico: "2026-27"
 my_trabajos_estudiantes: https://perezp44.github.io/intro-ds-26-27-web/05-trabajos-estudiantes.html
 my_aula_virtual: https://aulavirtual.uv.es/course/view.php?id=115944

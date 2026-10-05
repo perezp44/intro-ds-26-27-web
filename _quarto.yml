@@ -15,8 +15,9 @@ website:
   #title: "{{< var my_title_web >}}" #- mo lo hago asi xq queda feo en las pestañitas
   title: "Programación y manejo de datos con R"
   favicon: imagenes/uv.jpeg
-  site-url: "{{< var my_url_web >}}"
-  repo-url: "{{< var my_url_repo_github >}}"
+  #- las 2 url van escritas tal cual: aquí los shortcodes {{< var ... >}} no se resuelven. Hay q cambiarlas cada año
+  site-url: "https://perezp44.github.io/intro-ds-26-27-web"
+  repo-url: "https://github.com/perezp44/intro-ds-26-27-web"
   repo-actions: [edit, issue]
   repo-branch: main  #- edit page in Github https://github.com/quarto-dev/quarto-cli/discussions/4826
   repo-link-target: "_blank" #makes issue and edit links open in a new window/tab 
