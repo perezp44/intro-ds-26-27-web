@@ -1,1 +1,1 @@
-Sitemap: {{< var my_url_web >}}/sitemap.xml
+Sitemap: https://perezp44.github.io/intro-ds-26-27-web/sitemap.xml

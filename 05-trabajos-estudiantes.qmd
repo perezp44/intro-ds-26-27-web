@@ -15,6 +15,8 @@ Los  ¿33? estudiantes del **curso {{< var my_curso_academico >}}**, como parte 
 
 ## Cursos anteriores
 
+- [Algunos consejos para hacer los trabajos](./materiales/slides_11_trabajo-final.html){target="_blank"}
+
 <br>
 
 ::: {.callout-note collapse="false" appearance="default" icon="false"}

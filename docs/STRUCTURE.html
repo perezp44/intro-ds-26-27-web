@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>structure – Programación y manejo de datos con R</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-d546e77db9b79ff45cab1724b04f94b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-9a7dff649313491d3cb860140645fda8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7c85c393d4758721cc53dfe1861e5672.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c5cadb94a28a9dc49f6b07587a41d9f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +83,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo">
+    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo light-content">
+    <img src="./imagenes/uv.jpeg" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Programación y manejo de datos con R</span>
@@ -170,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#checklist-de-mantenimiento-anual" id="toc-checklist-de-mantenimiento-anual" class="nav-link" data-scroll-target="#checklist-de-mantenimiento-anual">✅ Checklist de Mantenimiento Anual</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/STRUCTURE.md" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/perezp44/intro-ds-26-27-web/edit/main/STRUCTURE.md" target="_blank" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/perezp44/intro-ds-26-27-web/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -393,7 +397,8 @@ mola-mazo.png                            # Imagen decorativa (README)
 <h2 class="anchored" data-anchor-id="notas-importantes">📌 Notas Importantes</h2>
 <section id="variables-globales-_variables.yml" class="level3">
 <h3 class="anchored" data-anchor-id="variables-globales-_variables.yml">Variables Globales (_variables.yml)</h3>
-<p>Se usan en documentos como <code>{{&lt; var nombre_variable &gt;}}</code>. Actualizar anualmente: - <code>my_curso_academico</code>: año académico actual - <code>my_url_web</code>: URL de la web - <code>my_url_repo_github</code>: URL del repositorio - <code>my_posit_cloud</code>: espacio Posit Cloud del curso - <code>my_aula_virtual</code>: aula virtual (Moodle) - <code>my_footer_web</code>: año en el pie de página</p>
+<p>Se usan en documentos como <code>{{&lt; var nombre_variable &gt;}}</code>. Actualizar anualmente: - <code>my_curso_academico</code>: año académico actual - <code>my_trabajos_estudiantes</code>: URL de la página de trabajos (lleva el curso en la dirección) - <code>my_posit_cloud</code>: espacio Posit Cloud del curso - <code>my_aula_virtual</code>: aula virtual (Moodle) - <code>my_footer_web</code>: año en el pie de página</p>
+<p>Además, hay que cambiar a mano en <code>_quarto.yml</code> las dos URL que llevan el curso: <code>site-url</code> (la web) y <code>repo-url</code> (el repositorio). Van escritas tal cual porque ahí los shortcodes no se resuelven.</p>
 </section>
 <section id="archivos-históricos" class="level3">
 <h3 class="anchored" data-anchor-id="archivos-históricos">Archivos Históricos</h3>
@@ -477,13 +482,14 @@ mola-mazo.png                            # Imagen decorativa (README)
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -498,7 +504,7 @@ mola-mazo.png                            # Imagen decorativa (README)
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https://perezp44.github.io/intro-ds-26-27.web/");
+        var filterRegex = new RegExp("https:\/\/perezp44\.github\.io\/intro-ds-26-27-web");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -833,7 +839,7 @@ mola-mazo.png                            # Imagen decorativa (README)
 </div>   
     <div class="nav-footer-center">
 <p>Hecho con <a href="https://quarto.org">Quarto</a></p>
-<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="{{< var my_url_repo_github >}}/edit/main/STRUCTURE.md" target="_blank" class="toc-action"><i class="bi bi-git"></i>Editar esta página</a></li><li><a href="{{< var my_url_repo_github >}}/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/perezp44/intro-ds-26-27-web/edit/main/STRUCTURE.md" target="_blank" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/perezp44/intro-ds-26-27-web/issues/new" target="_blank" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
