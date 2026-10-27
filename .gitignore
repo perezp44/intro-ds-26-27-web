@@ -11,3 +11,8 @@ STRUCTURE.md
 .RData
 
 **/*.quarto_ipynb
+
+# instrucciones para asistentes (no van a GitHub)
+AGENTS.md
+CLAUDE.md
+.claude/

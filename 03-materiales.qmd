@@ -44,6 +44,10 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 
 - [Slides-04: Importar y exportar datos](./materiales/slides_04_cargar-datos.html){target="_blank"}
 
+- [Slides-04(B): Datos de Eurostat](./materiales/slides_04B_datos-de-Eurostat.html){target="_blank"}
+
+- [Slides-04(C): Datos del INE](./materiales/slides_04C_datos-del-INE.html){target="_blank"}
+
 - [Slides-05(A): Data munging I](./materiales/slides_05A_data-munging.html){target="_blank"}
 
 - [Slides-05(B): Data munging II](./materiales/slides_05B_data-munging.html){target="_blank"}
@@ -75,6 +79,7 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 - [Tutorial 03: R base](./materiales/tt_03_R-base.html){target="_blank"} 
 
 - [Tutorial 04: Cargar datos](./materiales/tt_04_cargar_datos.html){target="_blank"} 
+
 
 - [Tutorial 05: Data munging](./materiales/tt_05_data-munging.html){target="_blank"} 
 
