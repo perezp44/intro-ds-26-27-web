@@ -64,8 +64,11 @@ En el curso usaremos diversos tipos de materiales, los principales son:
 
 - [Slides-07(C): Webs con Quarto](./materiales/slides_07c_webs-con-quarto.html){target="_blank"}
 
-<br>
+------------------------------------
 
+- [Todas las slides en pdf](./guiones/slides_en_pdf.zip){target="_blank"}
+
+<br>
 
 ## Tutoriales
 

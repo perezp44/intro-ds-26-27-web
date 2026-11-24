@@ -298,7 +298,7 @@
     "href": "03-materiales.html#slides",
     "title": "Programación y manejo de datos con R",
     "section": "Slides",
-    "text": "Slides\n\nSlides-00: Presentación\nSlides-01: Tema 1\nSlides-02: Primeros pasos\nSlides-03: R base\nSlides-04: Importar y exportar datos\nSlides-04(B): Datos de Eurostat\nSlides-04(C): Datos del INE\nSlides-05(A): Data munging I\nSlides-05(B): Data munging II\nSlides-06(A): ggplot2 (primeras ideas)\nSlides-06(B): ggplot2 (más elementos)\nSlides-06(C): ggplot2 (distintos tipos de gráficos)\nSlides-07(A): Rmarkdown (primeras ideas, bye bye)\nSlides-07(B): Intro a Quarto\nSlides-07(C): Webs con Quarto"
+    "text": "Slides\n\nSlides-00: Presentación\nSlides-01: Tema 1\nSlides-02: Primeros pasos\nSlides-03: R base\nSlides-04: Importar y exportar datos\nSlides-04(B): Datos de Eurostat\nSlides-04(C): Datos del INE\nSlides-05(A): Data munging I\nSlides-05(B): Data munging II\nSlides-06(A): ggplot2 (primeras ideas)\nSlides-06(B): ggplot2 (más elementos)\nSlides-06(C): ggplot2 (distintos tipos de gráficos)\nSlides-07(A): Rmarkdown (primeras ideas, bye bye)\nSlides-07(B): Intro a Quarto\nSlides-07(C): Webs con Quarto\n\n\n\nTodas las slides en pdf"
   },
   {
     "objectID": "03-materiales.html#tutoriales",
