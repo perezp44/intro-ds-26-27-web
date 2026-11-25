@@ -136,14 +136,12 @@ file.remove(file_to_download)
 
 ## Plantillas para los trabajos
 
-(dentro de unas semanas)
+
+
+- [Plantilla para los trabajos](./guiones/trabajo_BigData.zip){target="_blank"}
+
 
 ::: {.content-hidden}
-
-- [Plantilla para trabajo en equipo](./guiones/trabajo_BigData_equipo.zip){target="_blank"} 
-
-- [Plantilla para trabajo individual](./guiones/trabajo_BigData_individual.zip){target="_blank"} 
-
 - [¿Cómo subir los trabajos individuales?](./mas-cosas/entrega_trabajo_individual.html){target="_blank"} 
 :::
 
