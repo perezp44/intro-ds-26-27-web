@@ -193,7 +193,8 @@ usethis::use_blank_slate()
 - Son simplemente enlaces a servicios que (seguramente) usaremos durante el curso
 :::
 
--   [**Etherpad**](https://etherpad.wikimedia.org/p/pjperez){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.
+-   [**Etherpad**](https://etherpad.wikimedia.org/p/pjperez){target="_blank"}: durante el curso escribiremos código R. Esta etherpad nos permitirá compartir el código.   Para hoy: [Framapad](https://hebdo.framapad.org/p/bigdata-aov1?lang=es
+)
 
 -   [**Aula Virtual de la asignatura**]({{< var my_aula_virtual >}}){target="_blank"}: como Aula Virtual es el sitio oficial de la asignatura colgaré allí los anuncios de tipo "oficial". También colgaré en Aula Virtual los detalles sobre la evaluación. 
 
